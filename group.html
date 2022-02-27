@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/group.css">
+    <link rel="icon" href="img/icon.svg">
+    <title>Nike Winter</title>
+</head>
+<body>
+    <header class="header flex">
+        <menu class="flex justify-content-between align-items-center col-12">
+            <li class="menu-item-logo"><a href="main.html">Challengify</a></li>
+            <li class="menu-item"><a href="profile.html">Профиль</a></li>
+        </menu>
+    </header>
+    <div class="main-content container-fluid">
+        <h1 class="main-content__group-heading">Группа Nike Winter</h1>
+        <div class="group-details row">
+            <div class="group-details__rectangle-block col-auto">
+                <div class="group-details__rectangle">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-6">
+                <div class="group-details__group-info">
+                    <div class="group-details__username-block">
+                        <h3 class="group-details__username">Создатель <span>Владимир Блейк</span></h2>
+                    </div>
+                    <div class="group-details__extra">
+                        <span class="group-details__participants">Участников <span>400</span></span>
+                        <span class="group-details__data-created">Создано <span>15.02.2022</span></span>
+                    </div>
+                    <div class="group-details__buttons-block">
+                        <div class="my-button">Подписаться</div>
+                        <div class="my-button">Настройки</div>
+                    </div>
+                </div>
+            </div>
+            <div class="group-details__social-block col-sm-12 col-lg-3">
+                <h2 class="group-details__social-heading">Социальные сети</h2>
+                <div class="group-details__social-flex-block">
+                    <div class="group-detail__social"><i class="fab fa-twitter"></i></div>
+                    <div class="group-detail__social"><i class="fab fa-instagram"></i></div>
+                    <div class="group-detail__social"><i class="fab fa-youtube"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content__challenges-heading-block">
+            <h2 class="main-content__challenges-heading">Челленджи</h2>
+            <a class="main-content__plus-block" href="#">+</a>
+        </div>
+        <!-- Challenge 1 -->
+        <div class="challenge row">
+            <div class="col-6 col-md-4 col-lg-4 flex align-items-center">
+                <div class="challenge__challenge-block">
+                    <span class="challenge__label">Название</span>
+                    <a class="challenge__name">Челлендж #1</a>
+                </div>
+            </div>
+            <div class="challenge__group-group col-md-4 col-lg-3 flex align-items-center">
+                <div class="challenge__group-block">
+                    <span class="challenge__label">Участников</span>
+                    <a class="challenge__participants">370</a>
+                </div>
+            </div>
+            <div class="challenge__result-group col-lg-2 flex align-items-center">
+                <div class="challenge__results-block">
+                    <span class="challenge__label">Дата окончания</span>
+                    <h4 class="challenge__time-left">28.02.2022</h4>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 flex align-items-center">
+                <div class="challenge__xp-block">
+                    <span class="challenge__xp-label">XP</span>
+                    <div class="challenge__xp-bar-group">
+                        <xp-bar percent="40"></xp-bar>
+                        <span>250/400</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Challenge 2 -->
+        <div class="challenge row">
+            <div class="col-6 col-md-4 col-lg-4 flex align-items-center">
+                <div class="challenge__challenge-block">
+                    <span class="challenge__label">Название</span>
+                    <a class="challenge__name">Челлендж #2</a>
+                </div>
+            </div>
+            <div class="challenge__group-group col-md-4 col-lg-3 flex align-items-center">
+                <div class="challenge__group-block">
+                    <span class="challenge__label">Участников</span>
+                    <a class="challenge__participants">240</a>
+                </div>
+            </div>
+            <div class="challenge__result-group col-lg-2 flex align-items-center">
+                <div class="challenge__results-block">
+                    <span class="challenge__label">Дата окончания</span>
+                    <h4 class="challenge__time-left">20.03.2022</h4>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 flex align-items-center">
+                <div class="challenge__xp-block">
+                    <span class="challenge__xp-label">XP</span>
+                    <div class="challenge__xp-bar-group">
+                        <xp-bar percent="80"></xp-bar>
+                        <span>320/400</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/xp_bar.js"></script>
+    </div>
+</body>
+</html>

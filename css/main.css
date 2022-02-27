@@ -1,7 +1,6 @@
 @import "styles.css";
 
 body {
-    margin: 0;
     width: 100vw;
 }
 
@@ -106,6 +105,9 @@ body {
     .main-content__button {
         float: none;
         margin-bottom: 15px;
+    }
+    .main-content__description-br {
+        display: none;
     }
 }
 

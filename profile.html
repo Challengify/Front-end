@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="icon" href="img/icon.svg">
+    <title>Мой профиль</title>
+</head>
+<body>
+    <header class="header flex">
+        <menu class="flex justify-content-between align-items-center col-12">
+            <li class="menu-item-logo"><a href="main.html">Challengify</a></li>
+            <li class="menu-item"><a href="#">Профиль</a></li>
+        </menu>
+    </header>
+    <div class="main-content container-fluid">
+        <h1 class="main-content__profile-heading">Мой профиль</h1>
+        <div class="profile-details row">
+            <div class="profile-details__level-block col-auto">
+                <div class="profile-details__level-rectangle">
+                    <span class="profile-details__level">1</span>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-6">
+                <div class="profile-details__user-details">
+                    <div class="profile-details__username-block">
+                        <h3 class="profile-details__username">Владимир Блейк</h2>
+                        <div class="profile-details__level-rectangle-small">
+                            <span class="profile-details__level-small">1</span>
+                        </div>
+                    </div>
+                    <h4 class="profile-details__user-type">Обычный пользователь</h3>
+                    <span class="profile-details__level-text">Уровень <span>1</span></span>
+                    <span class="profile-details__xp"><span>570</span> XP</span>
+                    <div class="profile-details__buttons-block">
+                        <div class="my-button">Подписка</div>
+                        <div class="my-button">Настройки</div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-details__achievment-block col-sm-12 col-lg-3">
+                <h2 class="profile-details__achievments-heading">Достижения</h2>
+                <div class="profile-details__achievments-flex-block">
+                    <div class="profile-detail__achievment"><span>A</span></div>
+                    <div class="profile-detail__achievment"><span>S</span></div>
+                    <div class="profile-detail__achievment"><span>1</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content__challenges-heading-block">
+            <h2 class="main-content__challenges-heading">Челленджи</h2>
+            <a class="main-content__plus-block" href="#">+</a>
+        </div>
+        <!-- Challenge 1 -->
+        <div class="challenge row">
+            <div class="col-6 col-md-4 col-lg-4 flex align-items-center">
+                <div class="challenge__challenge-block">
+                    <span class="challenge__label">Название</span>
+                    <a class="challenge__name">Челлендж #1</a>
+                </div>
+            </div>
+            <div class="challenge__group-group col-md-4 col-lg-3 flex align-items-center">
+                <div class="challenge__group-block">
+                    <span class="challenge__label">Группа</span>
+                    <a class="challenge__group-name">Nike Winter</a>
+                </div>
+            </div>
+            <div class="challenge__result-group col-lg-2 flex align-items-center">
+                <div class="challenge__results-block">
+                    <span class="challenge__label">Результат</span>
+                    <h4 class="challenge__result">120 км</h4>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 flex align-items-center">
+                <div class="challenge__xp-block">
+                    <span class="challenge__xp-label">XP</span>
+                    <div class="challenge__xp-bar-group">
+                        <xp-bar percent="40"></xp-bar>
+                        <span>250/400</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Challenge 2 -->
+        <div class="challenge row">
+            <div class="col-6 col-md-4 col-lg-4 flex align-items-center">
+                <div class="challenge__challenge-block">
+                    <span class="challenge__label">Название</span>
+                    <a class="challenge__name">Челлендж #2</a>
+                </div>
+            </div>
+            <div class="challenge__group-group col-md-4 col-lg-3 flex align-items-center">
+                <div class="challenge__group-block">
+                    <span class="challenge__label">Группа</span>
+                    <a class="challenge__group-name">Adidas Sport</a>
+                </div>
+            </div>
+            <div class="challenge__result-group col-lg-2 flex align-items-center">
+                <div class="challenge__results-block">
+                    <span class="challenge__label">Результат</span>
+                    <h4 class="challenge__result">320 XP</h4>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 flex align-items-center">
+                <div class="challenge__xp-block">
+                    <span class="challenge__xp-label">XP</span>
+                    <div class="challenge__xp-bar-group">
+                        <xp-bar percent="80"></xp-bar>
+                        <span>320/400</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/xp_bar.js"></script>
+</body>
+</html>
